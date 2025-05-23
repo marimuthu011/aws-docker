@@ -7,7 +7,7 @@ services:
     volumes:
       - .:/usr/src/personalised_nudges
     ports:
-      - 80:80
+      - 8000:80
     depends_on:
       - db
 
